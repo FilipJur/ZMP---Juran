@@ -1,0 +1,109 @@
+p {
+    color: #495057;
+}
+
+.rounded-corners {
+    border-radius: 10px;
+}
+
+.cart {
+    height: 1vw;
+}
+
+.cart-button {
+    border-radius: 3px;
+    border: none;
+    background-color:#55d117;
+    width: 2vw;
+    height: 2vw;
+    position: relative;
+    top: -0.25vw;
+    right: -0.35vw;
+    float:right;
+}
+
+.cart-button-remove {
+    border-radius: 3px;
+    border: none;
+    background-color:#cc1111;
+    width: 2vw;
+    height: 2vw;
+    position: relative;
+    top: -0.25vw;
+    right: -0.35vw;
+    float:right;
+}
+
+.cart-button-remove:hover {
+    background-color: #ec3a3a;
+}
+
+.cart-button:hover {
+    background-color: #43b30b;
+}
+
+.gray-bg {
+    background-color: #e9ecef;
+}
+
+body{ min-height:100vh; margin:0; position:relative; }
+header{ min-height:50px; background:lightcyan; }
+/*footer{ background:lightcyan; }
+
+/* Trick: */
+body {
+  position: relative;
+  min-height: 100%;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+#footer-right {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: -1px;
+}
+
+.cart-checkout {
+    border-radius: 3px;
+    border: none;
+    background-color:#55d117;
+    width: 2vw;
+    height: 2vw;
+    position: relative;
+    top: -0.25vw;
+    right: -0.35vw;
+    float:right;   
+}
+
+.cart-checkout:hover {
+    background-color: #43b30b;
+}
+
+
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.1s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+
+.katalog-button {
+    border-radius: 3px;
+    border: none;
+    background-color:#55d117;
+    width: 2vw;
+    height: 2vw;
+    position: relative;
+    top: -0.25vw;
+    right: -0.35vw;
+    float:right;
+}
